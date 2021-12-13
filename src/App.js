@@ -6,7 +6,7 @@ import "./App.css";
 
 export default function App() {
   const displayFunc = (data)=> {
-    console.log(data);
+    console.log('data', data);
   }
 
   return (
@@ -15,7 +15,7 @@ export default function App() {
         <a className="navbar-brand" href="#">Integration Testing Challenge</a>
       </nav>
       <div className="App">
-        <Display displayFun={displayFunc}/>
+        <Display displayFunc={displayFunc}/>
       </div>
     </div>
   );
